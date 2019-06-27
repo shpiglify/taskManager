@@ -2,7 +2,7 @@
   <div class="AddNewTask">
       <button class="btn" v-on:click="()=>{$emit('add_new_task',newTask);this.title = ''}">
       <span class="icon-md icon-add"></span>
-      Add Task
+      <span class="add-task">Add Task</span>
     </button>
     <input
       type="text"
@@ -68,5 +68,11 @@ input[type="text"] {
     padding: 6px 25px 6px 12px;
   }
 }
+@media only screen and (max-width: 419px) {
+  span.add-task{
+display: none;
+}
+}
+
 
 </style>

@@ -105,10 +105,12 @@ input {
   font-size: inherit;
   font-weight: bold;
   padding: 2px;
+  width: 100%;
   color: #2c3e50;
 }
 
 textarea.description {
+  max-width: 94%;
   font-weight: normal;
   border-radius: 2px;
 
@@ -159,6 +161,9 @@ textarea.description {
   transition-timing-function: ease;
 }
 .delete {
+  position: absolute;
+  right: 5px;
+  top: 5px;
   background-color: #cf513d;
   box-shadow: 0 1px 0 0 #6e2f1a;
   transition: 0.3s;
@@ -180,5 +185,6 @@ textarea.description {
 
 h6 {
   margin-left: 38px;
+  max-width: 50%;
 }
 </style>
