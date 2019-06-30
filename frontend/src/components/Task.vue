@@ -109,6 +109,12 @@ input {
   color: #2c3e50;
 }
 
+input[type=number]{
+  display:inline;
+  width:35px;
+}
+
+
 textarea.description {
   max-width: 94%;
   font-weight: normal;
